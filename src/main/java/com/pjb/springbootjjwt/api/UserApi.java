@@ -39,6 +39,7 @@ public class UserApi {
             }
         }
     }
+
     @UserLoginToken
     @GetMapping("/getMessage")
     public String getMessage(){
