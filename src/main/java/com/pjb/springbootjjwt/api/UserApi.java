@@ -28,6 +28,7 @@ public class UserApi {
             jsonObject.put("message","登录失败,用户不存在");
             return jsonObject;
         }else {
+
             if (!userForBase.getPassword().equals(user.getPassword())){
                 jsonObject.put("message","登录失败,密码错误");
                 return jsonObject;
