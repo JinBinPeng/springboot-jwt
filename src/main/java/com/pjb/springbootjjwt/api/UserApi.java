@@ -21,7 +21,7 @@ public class UserApi {
     TokenService tokenService;
     //登录
     @PostMapping("/login")
-    public Object login(@RequestBody User user){
+    public Object login( User user){
         JSONObject jsonObject=new JSONObject();
         User userForBase=userService.findByUsername(user);
         if(userForBase==null){
