@@ -3,7 +3,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/test?useSSL=false
     username: root
-    password: 1997
+    password: ebid$2018
 mybatis:
   config-location: classpath:mybatis.xml
 debug: true
